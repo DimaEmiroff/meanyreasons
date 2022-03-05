@@ -1,38 +1,224 @@
-.App {
+body {
+  background: linear-gradient(#3B1D60 100%, #040D3E 100%);
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Gilroy-SemiBold', sans-serif;
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+/*-==========Header=========-*/
+.app {
   text-align: center;
+  margin: 75px 0 0 120px;
 }
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
+}
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  width: 36px;
+  height: 36px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*-=========Menu========-*/
+.app-header-navigation > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 613px;
+
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.app-header-navigation a {
+  color: #B5B5B5;
+}
+.app-header-navigation a:hover {
+  color: #bababa;
+  border-bottom: 2px solid #bababa;
+}
+.app-header-btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.app-header-btnsign {
+  width: 112px;
+  height: 36px;
+  border: 1px solid #F2994A;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #F2994A;
+  background: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-header-btnsign:hover {
+  background: #F2994A;
+  color: #ffffff;
+ }
+
+.app-header-btnsignup {
+  width: 112px;
+  height: 36px;
+  border: 1px solid #F2994A;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #Ffffff;
+  background: #F2994A;
+  margin:0 120px 0 30px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+}
+.app-header-btnsignup:hover {
+  background: none;
+  color: #F2994A;
+}
+/*-============Title=======-*/
+.header-first {
+  display: flex;
+  position: relative;
+}
+.header-title {
+  margin: 140px 0 0 120px;
+}
+
+.header_title_many {
+  width: 531px;
+  color: #99EFD0;
+  font-size: 44px;
+  line-height: 50px;
+}
+.header_title_subtitle {
+  width: 468px;
+  line-height: 22px;
+  font-size: 18px;
+  color: #8476AA;
+  margin-top: 10px;
+}
+
+/*-========run-man=========-*/
+.header-first-image-man {
+  position: absolute;
+  top: 100px;
+  right: 0;
+
+}
+.header-second-block {
   display: flex;
   flex-direction: column;
+}
+.HeaderSecond-Button {
+  display: flex;
+  margin: 33px 0 0 120px;
+}
+.HeaderSecond-Button-learn {
+  width: 155px;
+  height: 46px;
+  border: 1px solid #F2994A;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #Ffffff;
+  background: #F2994A;
+  font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+}
+.HeaderSecond-Button-learn:hover {
+  background: none;
+  color: #F2994A;
+}
+
+.HeaderSecond-Button-demo {
+  width: 155px;
+  height: 46px;
+  border: 1px solid #F2994A;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #F2994A;
+  background: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+.HeaderSecond-Button-demo:hover {
+  background: #F2994A;
+  color: #ffffff;
+}
+
+/*-========Header_three_block=======-*/
+.Header_three_block {
+  display: flex;
+  margin: 60px 0 0 120px;
+}
+
+.HeaderSecond-video {
+  width: 140px;
+  height: 80px;
+  background: #361C5D;
+  border-radius: 4px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.HeaderSecond-par {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #8476AA;
+  width: 380px;
+  margin-left: 15px;
+}
+.HeaderSecond-par a {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6D6D78;
 }
 
-.App-link {
-  color: #61dafb;
+/*-=========HeaderPartners==========-*/
+.header_partners {
+  margin-top: 80px;
+}
+.header_partners_img {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  opacity: 0.4;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header_partners_img_groupLeft {
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.header_partners_img_groupRight{
+  position: absolute;
+  right: 0;
+  top: 10px;
 }
