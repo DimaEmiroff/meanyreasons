@@ -10,13 +10,14 @@ import HeaderSecondVideo from "./coding/HeaderSecondVideo.js";
 import HeaderSecondPar from "./coding/HeaderSecondPar.js";
 import HeaderPartners from "./coding/HeaderPartners.js";
 import SectionFirstName from  "./coding/SectionFirstName.js";
-import SectionFirstNameEstet from "./coding/SectionFirstNameEstet";
-import SectionFirstNameFolly from "./coding/SectionFirstNameFolly";
-import SectionFirstNamePossible from "./coding/SectionFirstNamePossible";
-import SectionFirstNameGame from "./coding/SectionFirstNameGame";
-import SectionFirstNameEndeavor from "./coding/SectionFirstNameEndeavor";
-import SectionFirstNameComfort from "./coding/SectionFirstNameComfort";
-
+import SectionFirstNameEstet from "./coding/SectionFirstNameEstet.js";
+import SectionFirstNameFolly from "./coding/SectionFirstNameFolly.js";
+import SectionFirstNamePossible from "./coding/SectionFirstNamePossible.js";
+import SectionFirstNameGame from "./coding/SectionFirstNameGame.js";
+import SectionFirstNameEndeavor from "./coding/SectionFirstNameEndeavor.js";
+import SectionFirstNameComfort from "./coding/SectionFirstNameComfort.js";
+import SectionIncreaseTraffic from "./coding/SectionIncreaseTraffic.js";
+import SectionIncreaseTrafficGraf from "./coding/SectionIncreaseTrafficGraf";
 
 const App = () => (
     <main>
@@ -57,7 +58,13 @@ const App = () => (
                 <SectionFirstNameEndeavor/>
                 <SectionFirstNameComfort/>
             </div>
+        </section>
+        <section>
+            <div className="section-increase-traffic">
+                <SectionIncreaseTraffic/>
+                <SectionIncreaseTrafficGraf/>
 
+            </div>
         </section>
     </main>
   );
