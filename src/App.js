@@ -9,6 +9,13 @@ import HeaderSecondButton from "./coding/HeaderSecondButton.js";
 import HeaderSecondVideo from "./coding/HeaderSecondVideo.js";
 import HeaderSecondPar from "./coding/HeaderSecondPar.js";
 import HeaderPartners from "./coding/HeaderPartners.js";
+import SectionFirstName from  "./coding/SectionFirstName.js";
+import SectionFirstNameEstet from "./coding/SectionFirstNameEstet";
+import SectionFirstNameFolly from "./coding/SectionFirstNameFolly";
+import SectionFirstNamePossible from "./coding/SectionFirstNamePossible";
+import SectionFirstNameGame from "./coding/SectionFirstNameGame";
+import SectionFirstNameEndeavor from "./coding/SectionFirstNameEndeavor";
+import SectionFirstNameComfort from "./coding/SectionFirstNameComfort";
 
 
 const App = () => (
@@ -19,7 +26,6 @@ const App = () => (
             <HeaderNavigation/>
             <HeaderButtonSend/>
           </div>
-
         </section>
         {/*--Title----*/}
         <section className = "header-first">
@@ -40,7 +46,17 @@ const App = () => (
         <section className= "header_partners">
             <HeaderPartners/>
         </section>
-        <section>
+        {/*----Block Your choice-----*/}
+        <section className="section-first-name">
+        <SectionFirstName/>
+            <div className="section-first-name-estet">
+                <SectionFirstNameEstet/>
+                <SectionFirstNameFolly/>
+                <SectionFirstNamePossible/>
+                <SectionFirstNameGame/>
+                <SectionFirstNameEndeavor/>
+                <SectionFirstNameComfort/>
+            </div>
 
         </section>
     </main>

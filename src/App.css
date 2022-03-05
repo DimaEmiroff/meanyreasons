@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: bold;
 }
+
 /*-==========Header=========-*/
 .app {
   text-align: center;
@@ -221,4 +222,152 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   right: 0;
   top: 10px;
+}
+/*-=========SectionFirstName========-*/
+
+.section-first-name {
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-first-name-titl {
+  font-size: 42px;
+  line-height: 50px;
+
+  color: #99EFD0;
+}
+
+.section-first-name-par {
+  margin-top: 13px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #8476AA;
+}
+.section-first-name-estet {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.section-first-name-estet-Column {
+  width: 247px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0 0 43px 120px;
+  color: #8476AA;
+}
+
+.section-first-name-estet-Elegance {
+  position: relative;
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 10px;
+  color: #99EFD0;
+
+}
+
+.section-first-name-estet-Elegance::before {
+  content: "";
+  position: absolute;
+  background-image: url("./image/flip-horizontal.png");
+  width: 24px;
+  height: 24px;
+  left: -48px;
+}
+
+.section-first-name-estet-Folly {
+  position: relative;
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 10px;
+  color: #99EFD0;
+}
+.section-first-name-estet-Folly::before {
+  content: "";
+  position: absolute;
+  background-image: url("./image/Airpods.png");
+  width: 24px;
+  height: 24px;
+  left: -48px;
+}
+
+.section-first-name-estet-Possible {
+  position: relative;
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 10px;
+  color: #99EFD0;
+
+}
+.section-first-name-estet-Possible::before {
+  content: "";
+  position: absolute;
+  background-image: url("./image/LTE.png");
+  width: 24px;
+  height: 24px;
+  left: -48px;
+}
+
+.section-first-name-estet-Game {
+  position: relative;
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 10px;
+  color: #99EFD0;
+}
+.section-first-name-estet-Game::before {
+  content: "";
+  position: absolute;
+  background-image: url("./image/Thunder-move.png");
+  width: 24px;
+  height: 24px;
+  left: -48px;
+}
+.section-first-name-estet-Endeavor {
+  position: relative;
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 10px;
+  color: #99EFD0;
+}
+.section-first-name-estet-Endeavor::before {
+  content: "";
+  position: absolute;
+  background-image: url("./image/Attachment.png");
+  width: 24px;
+  height: 24px;
+  left: -48px;
+}
+
+.section-first-name-estet-Comfort {
+  position: relative;
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 10px;
+  color: #99EFD0;
+}
+
+.section-first-name-estet-Comfort::before {
+  content: "";
+  position: absolute;
+  background-image: url("./image/Bulb.png");
+  width: 24px;
+  height: 24px;
+  left: -48px;
 }
