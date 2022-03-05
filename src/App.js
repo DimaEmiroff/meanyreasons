@@ -17,7 +17,11 @@ import SectionFirstNameGame from "./coding/SectionFirstNameGame.js";
 import SectionFirstNameEndeavor from "./coding/SectionFirstNameEndeavor.js";
 import SectionFirstNameComfort from "./coding/SectionFirstNameComfort.js";
 import SectionIncreaseTraffic from "./coding/SectionIncreaseTraffic.js";
-import SectionIncreaseTrafficGraf from "./coding/SectionIncreaseTrafficGraf";
+import SectionIncreaseTrafficGraf from "./coding/SectionIncreaseTrafficGraf.js";
+import SectionSimple from "./coding/SectionSimple.js";
+import SectionSimpleStat from "./coding/SectionSimpleStat.js";
+import SectionSimpleStatWays from "./coding/SectionSimpleStatWays.js";
+import SectionSimpleStatDiscount from "./coding/SectionSimpleStatDiscount";
 
 const App = () => (
     <main>
@@ -63,9 +67,20 @@ const App = () => (
             <div className="section-increase-traffic">
                 <SectionIncreaseTraffic/>
                 <SectionIncreaseTrafficGraf/>
-
             </div>
         </section>
+        <section>
+            <div className="section-simple">
+                <SectionSimple/>
+
+            </div>
+            <div className= "section-simple-column">
+                <SectionSimpleStat/>
+                <SectionSimpleStatWays/>
+                <SectionSimpleStatDiscount/>
+            </div>
+        </section>
+
     </main>
   );
 
