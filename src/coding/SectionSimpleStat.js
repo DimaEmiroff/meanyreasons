@@ -1,9 +1,9 @@
 import React from "react";
 
-const SectionSimpleStat = () => (
+const SectionSimpleStat = (props) => (
 <div className="section-simple-col">
-    <h3 className="section-simple-col-name">100+</h3>
-    <p>5 Reasons To Purchase <br/> Desktop Computers</p>
+    <h3 className="section-simple-col-name">{props.rait}</h3>
+    <p className="section-simple-col-par">{props.text}</p>
 </div>
 
 );

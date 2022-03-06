@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   top: 10px;
 }
-/*-=========SectionFirstName========-*/
+/*-=========Section First Name========-*/
 
 .section-first-name {
   margin-top: 100px;
@@ -370,6 +370,7 @@ h1, h2, h3, h4, h5, h6 {
   left: -48px;
 }
 
+/*-=========Increase=========-*/
 .section-increase-traffic {
   display: flex;
   justify-content: space-around;
@@ -410,6 +411,8 @@ h1, h2, h3, h4, h5, h6 {
   top: 239px;
   z-index: -3;
 }
+
+/*-=========Simple========-*/
 .section-simple {
   display: flex;
   flex-direction: column;
@@ -456,7 +459,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.33px;
   margin: 45px 0 10px 0;
 }
-.section-simple-col > p {
+.section-simple-col-par {
   font-family: 'Gilroy-SemiBold', sans-serif;
   font-size: 15px;
   line-height: 20px;

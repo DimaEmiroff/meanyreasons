@@ -11,17 +11,12 @@ import HeaderSecondPar from "./coding/HeaderSecondPar.js";
 import HeaderPartners from "./coding/HeaderPartners.js";
 import SectionFirstName from  "./coding/SectionFirstName.js";
 import SectionFirstNameEstet from "./coding/SectionFirstNameEstet.js";
-import SectionFirstNameFolly from "./coding/SectionFirstNameFolly.js";
-import SectionFirstNamePossible from "./coding/SectionFirstNamePossible.js";
-import SectionFirstNameGame from "./coding/SectionFirstNameGame.js";
-import SectionFirstNameEndeavor from "./coding/SectionFirstNameEndeavor.js";
-import SectionFirstNameComfort from "./coding/SectionFirstNameComfort.js";
 import SectionIncreaseTraffic from "./coding/SectionIncreaseTraffic.js";
 import SectionIncreaseTrafficGraf from "./coding/SectionIncreaseTrafficGraf.js";
 import SectionSimple from "./coding/SectionSimple.js";
 import SectionSimpleStat from "./coding/SectionSimpleStat.js";
-import SectionSimpleStatWays from "./coding/SectionSimpleStatWays.js";
-import SectionSimpleStatDiscount from "./coding/SectionSimpleStatDiscount";
+
+import React from "react";
 
 const App = () => (
     <main>
@@ -47,37 +42,71 @@ const App = () => (
         <HeaderSecondVideo/>
         <HeaderSecondPar/>
     </section>
+
         {/*----Block partners-----*/}
         <section className= "header_partners">
             <HeaderPartners/>
         </section>
-        {/*----Block Your choice-----*/}
+
+        {/*----Block First Name-----*/}
         <section className="section-first-name">
         <SectionFirstName/>
             <div className="section-first-name-estet">
-                <SectionFirstNameEstet/>
-                <SectionFirstNameFolly/>
-                <SectionFirstNamePossible/>
-                <SectionFirstNameGame/>
-                <SectionFirstNameEndeavor/>
-                <SectionFirstNameComfort/>
+                <SectionFirstNameEstet
+                    sectionElegance= "Ecstatic elegance"
+                    sectionEstet= "Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add."
+                />
+                <SectionFirstNameEstet
+                    sectionElegance= "Folly words widow"
+                    sectionEstet= "Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what."
+                />
+                <SectionFirstNameEstet
+                    sectionElegance= "Possible procured trifling"
+                    sectionEstet= "We me rent been part what. An concluded sportsman offending so provision mr education."
+                />
+                <SectionFirstNameEstet
+                    sectionElegance= "Open Game"
+                    sectionEstet= "Shy merits say advice ten before lovers innate add. She cordially behaviour can attempted estimable."
+                />
+                <SectionFirstNameEstet
+                    sectionElegance= "Endeavor"
+                    sectionEstet= "Improve ashamed married expense bed her comfort pursuit mrs. Four time took ye your as fail lady."
+                />
+                <SectionFirstNameEstet
+                    sectionElegance= "Comfort pursuit"
+                    sectionEstet= "Had denoting properly jointure you occasion directly raillery. In said to of poor full be post face snug."
+                />
             </div>
         </section>
+
+        {/*-----Increase-----*/}
         <section>
             <div className="section-increase-traffic">
                 <SectionIncreaseTraffic/>
                 <SectionIncreaseTrafficGraf/>
             </div>
         </section>
+
+        {/*---Simple-----*/}
         <section>
             <div className="section-simple">
                 <SectionSimple/>
-
             </div>
             <div className= "section-simple-column">
-                <SectionSimpleStat/>
-                <SectionSimpleStatWays/>
-                <SectionSimpleStatDiscount/>
+                <SectionSimpleStat
+                    rait="10+"
+                    text="5 Reasons To Purchase
+                    Desktop Computers"
+                />
+                <SectionSimpleStat
+                    rait="43,000+"
+                    text="3 Simple Ways To Save A Bunch Of Money When Buying A New Computer"
+                />
+                <SectionSimpleStat
+                    rait="30+"
+                    text="A Discount Toner Cartridge Is Better Than Ever And You Will Save 50 Or More"
+                />
+
             </div>
         </section>
 
