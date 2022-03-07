@@ -17,26 +17,31 @@ import SectionSimple from "./coding/SectionSimple.js";
 import SectionSimpleStat from "./coding/SectionSimpleStat.js";
 
 import React from "react";
+import SectionCreate from "./coding/SectionCreate";
 
 const App = () => (
     <main>
         <section className="app">
-          {/*  ----menu----*/}
+
+          {/*  ----Navigation----*/}
           <div className="app-header">
             <HeaderNavigation/>
             <HeaderButtonSend/>
           </div>
         </section>
-        {/*--Title----*/}
+
+        {/*--Title Block----*/}
         <section className = "header-first">
             <HeaderTitle/>
             <img src = {runman} className = "header-first-image-man"/>
             <img src = {groupman} className = "header-first-image-man"/>
         </section>
+
         {/*----Header-Block2----*/}
         <section className = "header-second-block">
             <HeaderSecondButton/>
         </section>
+
         {/*----Header-Block3----*/}
     <section className= "Header_three_block">
         <HeaderSecondVideo/>
@@ -52,8 +57,10 @@ const App = () => (
         <section className="section-first-name">
         <SectionFirstName/>
             <div className="section-first-name-estet">
+
                 <SectionFirstNameEstet
                     sectionElegance= "Ecstatic elegance"
+
                     sectionEstet= "Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add."
                 />
                 <SectionFirstNameEstet
@@ -79,7 +86,7 @@ const App = () => (
             </div>
         </section>
 
-        {/*-----Increase-----*/}
+        {/*-----Block Increase-----*/}
         <section>
             <div className="section-increase-traffic">
                 <SectionIncreaseTraffic/>
@@ -87,7 +94,7 @@ const App = () => (
             </div>
         </section>
 
-        {/*---Simple-----*/}
+        {/*---Block Simple-----*/}
         <section>
             <div className="section-simple">
                 <SectionSimple/>
@@ -109,6 +116,14 @@ const App = () => (
 
             </div>
         </section>
+
+    {/* ---Block create--*/}
+        <section>
+            <div className="create">
+                <SectionCreate/>
+            </div>
+        </section>
+
 
     </main>
   );
