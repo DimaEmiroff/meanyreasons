@@ -1,3 +1,4 @@
+import React from "react";
 import runman from  "./image/run-man.png";
 import groupman from "./image/groupman.png";
 import './App.css';
@@ -15,9 +16,9 @@ import SectionIncreaseTraffic from "./coding/SectionIncreaseTraffic.js";
 import SectionIncreaseTrafficGraf from "./coding/SectionIncreaseTrafficGraf.js";
 import SectionSimple from "./coding/SectionSimple.js";
 import SectionSimpleStat from "./coding/SectionSimpleStat.js";
-
-import React from "react";
-import SectionCreate from "./coding/SectionCreate";
+import SectionCreate from "./coding/SectionCreate.js";
+import SectionInvest from "./coding/SectionInvest.js";
+import SectionInvestStat from "./coding/SectionInvestStat.js";
 
 const App = () => (
     <main>
@@ -119,11 +120,18 @@ const App = () => (
 
     {/* ---Block create--*/}
         <section>
-            <div className="create">
+            <div>
                 <SectionCreate/>
             </div>
         </section>
 
+    {/* ----Block Invest-----*/}
+        <section>
+            <div className="section-increase-traffic">
+                <SectionInvest/>
+                <SectionInvestStat/>
+            </div>
+        </section>
 
     </main>
   );

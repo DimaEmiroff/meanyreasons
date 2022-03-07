@@ -223,8 +223,8 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   top: 10px;
 }
-/*-=========Section First Name========-*/
 
+/*-=========Block First Name========-*/
 .section-first-name {
   margin-top: 100px;
   text-align: center;
@@ -370,7 +370,7 @@ h1, h2, h3, h4, h5, h6 {
   left: -48px;
 }
 
-/*-=========Increase=========-*/
+/*-=========Block Increase=========-*/
 .section-increase-traffic {
   display: flex;
   justify-content: space-around;
@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -3;
 }
 
-/*-=========Simple Block========-*/
+/*-=========Block Simple ========-*/
 .section-simple {
   display: flex;
   flex-direction: column;
@@ -469,9 +469,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #8476AA;
 }
 
-.create {
-
-}
+/*-===========Block Create=========-*/
 
 .create-newproject {
   display: flex;
@@ -489,7 +487,64 @@ h1, h2, h3, h4, h5, h6 {
 
 .create-newproject-frame {
   position: absolute;
-  top: 36px;
-  object-fit: cover;
+  top: 106px;
+  object-fit: fill;
+  height: 156%;
   width: 95%;
+}
+
+/*-==========Block Invest=========-*/
+.section-invest-stat {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 415px;
+  width: 260px;
+  background: #ffffff;
+  border-radius:0 0 10px 10px;
+
+}
+
+.section-invest-stat > span {
+  padding: 13px 40px 3px 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #212B36;
+
+}
+
+.section-invest-stat > p {
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  color: #637381;
+  padding: 0 40px 10px 30px;
+}
+
+.section-invest-stat-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-invest-stat-par {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #637381;
+}
+.section-invest-stat-arrow {
+  position: absolute;
+  top: 93px;
+  left: -98px;
+}
+
+.section-invest-stat-mnth {
+  position: absolute;
+  bottom: 119px;
+  right: -121px;
+  z-index: -1;
 }
