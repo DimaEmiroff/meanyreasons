@@ -128,7 +128,7 @@ const App = () => (
 
     {/* ----Block Invest-----*/}
         <section>
-            <div className="section-increase-traffic">
+            <div className="section-invest-traffic">
                 <SectionInvest/>
                 <SectionInvestStat/>
             </div>

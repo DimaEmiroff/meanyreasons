@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   background: none;
   font-family: 'Rubik', sans-serif;
   font-size: 12px;
+  cursor: pointer;
 }
 
 .app-header-btnsign:hover {
@@ -88,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   margin:0 120px 0 30px;
   font-family: 'Rubik', sans-serif;
   font-size: 12px;
+  cursor: pointer;
 }
 .app-header-btnsignup:hover {
   background: none;
@@ -152,6 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #F2994A;
   font-family: 'Rubik', sans-serif;
   font-size: 12px;
+  cursor: pointer;
 }
 .HeaderSecond-Button-learn:hover {
   background: none;
@@ -170,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Rubik', sans-serif;
   font-size: 12px;
   margin-left: 30px;
+  cursor: pointer;
 }
 
 .HeaderSecond-Button-demo:hover {
@@ -191,7 +195,13 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
+.HeaderSecond-video:focus {
+  height: 68px;
+  width: 78px;
+}
+
 .HeaderSecond-par {
   font-family: 'Rubik', sans-serif;
   font-style: normal;
@@ -385,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-increase-traffic {
   display: flex;
   justify-content: space-around;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .section-increase-traffic-titl {
@@ -498,13 +508,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .create-newproject-frame {
   position: absolute;
-  top: 106px;
+  top: 196px;
   object-fit: fill;
-  height: 156%;
+  height: 126%;
   width: 95%;
 }
 
 /*-==========Block Invest=========-*/
+.section-invest-traffic {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 270px;
+}
+
 .section-invest-stat {
   position: relative;
   display: flex;
@@ -541,12 +557,14 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   align-items: center;
 }
+
 .section-invest-stat-par {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #637381;
 }
+
 .section-invest-stat-arrow {
   position: absolute;
   top: 93px;
