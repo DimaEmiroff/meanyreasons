@@ -33,17 +33,18 @@ const App = () => (
 
         {/*--Title Block----*/}
         <section className = "header-first">
-            <HeaderTitle/>
-            <img src = {runman} className = "header-first-image-man"/>
-            <img src = {groupman} className = "header-first-image-man"/>
+           <div>
+               <HeaderTitle/>
+               <HeaderSecondButton/>
+           </div>
+
+            <div className="header-first-runman">
+                <img src = {runman} className = "header-first-image-man"/>
+                <img src = {groupman} className = "header-first-image-groupman"/>
+            </div>
         </section>
 
         {/*----Header-Block2----*/}
-        <section className = "header-second-block">
-            <HeaderSecondButton/>
-        </section>
-
-        {/*----Header-Block3----*/}
     <section className= "Header_three_block">
         <HeaderSecondVideo/>
         <HeaderSecondPar/>
