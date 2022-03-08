@@ -3,23 +3,8 @@ import Vlat from "../image/vlat.png";
 import Arrows from "../image/arrowsup.png";
 import Month from "../image/6 month.png";
 import Mask from  "../image/Mask Group.png";
-import styled from "styled-components";
+import {Upper, LineHr, Prices} from "../styledirectory/StyleComp.js"
 
-
-const Upper = {
-    textTransform: "uppercase",
-    color: "#98A4AF",
-}
-
-const LineHr = {
-    width: "230px",
-    margin: "10px 20px"
-}
-const Prices = styled.div `
-  color: #13C296;
-  font-size: 24px;
-  padding: 13px 40px 3px 30px;
-`;
 
 const SectionInvestStat= () => (
     <div className= "section-invest-stat">

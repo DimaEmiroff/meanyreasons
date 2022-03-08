@@ -19,9 +19,16 @@ import SectionSimpleStat from "./coding/SectionSimpleStat.js";
 import SectionCreate from "./coding/SectionCreate.js";
 import SectionInvest from "./coding/SectionInvest.js";
 import SectionInvestStat from "./coding/SectionInvestStat.js";
+import SectionHelp, {group} from "./coding/SectionHelp.js";
+import SectionHelpTitle from "./coding/SectionHelpTitle.js";
+import SectionHelpProp from "./coding/SectionHelpProp.js";
+import group9 from "./image/group 9.png";
+
+
 
 const App = () => (
     <main>
+
         <section className="app">
 
           {/*  ----Navigation----*/}
@@ -45,7 +52,7 @@ const App = () => (
         </section>
 
         {/*----Header-Block2----*/}
-    <section className= "Header_three_block">
+    <section className= "Header_two_block">
         <HeaderSecondVideo/>
         <HeaderSecondPar/>
     </section>
@@ -62,7 +69,6 @@ const App = () => (
 
                 <SectionFirstNameEstet
                     sectionElegance= "Ecstatic elegance"
-
                     sectionEstet= "Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add."
                 />
                 <SectionFirstNameEstet
@@ -134,6 +140,17 @@ const App = () => (
             </div>
         </section>
 
+    {/* -----Block Help-----*/}
+        <section className="section-help">
+            <SectionHelp/>
+            <div className="section-help-clmn">
+
+                <SectionHelpTitle/>
+                <SectionHelpProp/>
+                <img src={group9} alt="group9" className="section-help-clmn-img"/>
+            </div>
+
+        </section>
     </main>
   );
 
