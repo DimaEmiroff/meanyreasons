@@ -23,6 +23,8 @@ import SectionHelp, {group} from "./coding/SectionHelp.js";
 import SectionHelpTitle from "./coding/SectionHelpTitle.js";
 import SectionHelpProp from "./coding/SectionHelpProp.js";
 import group9 from "./image/group 9.png";
+import manygroup from "./image/manygroup.png";
+import SectionMany from "./coding/SectionMany.js";
 
 
 
@@ -144,11 +146,20 @@ const App = () => (
         <section className="section-help">
             <SectionHelp/>
             <div className="section-help-clmn">
-
                 <SectionHelpTitle/>
                 <SectionHelpProp/>
                 <img src={group9} alt="group9" className="section-help-clmn-img"/>
             </div>
+        </section>
+
+    {/* -----Block Many Reasons------*/}
+        <section className="section-many">
+            <img src={manygroup} alt="many"  className="section-many-img"/>
+                <div className="section-many-bg">
+                    <SectionMany/>
+                </div>
+
+
 
         </section>
     </main>

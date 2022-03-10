@@ -641,3 +641,50 @@ h1, h2, h3, h4, h5, h6 {
   right: 54px;
   opacity: 0.2;
 }
+
+/*-==========Block Many Reasons======*/
+.section-many {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.section-many-bg {
+  margin: 100px 0 0 120px;
+  width: 940px;
+  height: 324px;
+  background: rgba(60, 62, 125, 0.19);
+  backdrop-filter: blur(134px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 5px;
+
+}
+
+.section-many-img {
+  position: absolute;
+  top: 36px;
+}
+
+.section-many-text {
+  padding-top: 50px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+.section-many-text-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #F2994A;
+}
+
+.section-many-par {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  width: 400px;
+  padding-left: 260px;
+  color: #95A1BB;
+}
