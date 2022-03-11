@@ -25,6 +25,7 @@ import SectionHelpProp from "./coding/SectionHelpProp.js";
 import group9 from "./image/group 9.png";
 import manygroup from "./image/manygroup.png";
 import SectionMany from "./coding/SectionMany.js";
+import SectionManyInput from "./coding/SectionManyInput.js"
 
 
 
@@ -157,6 +158,8 @@ const App = () => (
             <img src={manygroup} alt="many"  className="section-many-img"/>
                 <div className="section-many-bg">
                     <SectionMany/>
+                    <SectionManyInput/>
+
                 </div>
 
 

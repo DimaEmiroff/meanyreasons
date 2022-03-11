@@ -687,4 +687,51 @@ h1, h2, h3, h4, h5, h6 {
   width: 400px;
   padding-left: 260px;
   color: #95A1BB;
+  margin-top: 18px;
+}
+
+.section-many-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33px;
+
+}
+
+.section-many-form-text {
+  width: 308px;
+  height: 56px;
+  background: #F6F6F6;
+  border-radius: 5px;
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+
+  opacity: 0.1;
+}
+
+.section-many-form-btn {
+  width: 128px;
+  height: 56px;
+  background: #F2994A;
+  border-radius: 0 5px 5px 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+
+.section-many-form-par {
+  margin-top: 13px;
+
+  font-family: 'Gilroy-SemiBold', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #8476AA;
 }
