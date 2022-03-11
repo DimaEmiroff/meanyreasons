@@ -26,6 +26,7 @@ import group9 from "./image/group 9.png";
 import manygroup from "./image/manygroup.png";
 import SectionMany from "./coding/SectionMany.js";
 import SectionManyInput from "./coding/SectionManyInput.js"
+import SectionFooterSocial from "./coding/SectionFooterSocial.js";
 
 
 
@@ -161,11 +162,19 @@ const App = () => (
                     <SectionManyInput/>
 
                 </div>
+            </section>
 
+        {/*---Footer-----*/}
+        <footer>
+            <section>
+                <div className="footer-social">
+                    <SectionFooterSocial/>
+                </div>
+            </section>
 
-
-        </section>
+        </footer>
     </main>
+
   );
 
 
