@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import React from "react";
+import SectionSimpleStat from "../coding/SectionSimpleStat";
 
 export const Title = styled.h3`
   font-size: 26px;
@@ -35,5 +37,19 @@ export const Feature = styled.h4`
   letter-spacing: 0.2px;
   color: #99EFD0;
   margin: 13px 0 13px 0;
+`;
+
+export const FooAdr = styled.h4`
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+
+  color: #8D8D8D;
+    a:hover {
+    border-bottom: 1px solid #8D8D8D;
+  }
 `
 

@@ -26,7 +26,10 @@ import group9 from "./image/group 9.png";
 import manygroup from "./image/manygroup.png";
 import SectionMany from "./coding/SectionMany.js";
 import SectionManyInput from "./coding/SectionManyInput.js"
-import SectionFooterSocial from "./coding/SectionFooterSocial.js";
+import FooterSocial from "./coding/FooterSocial.js";
+import FooterNav from "./coding/FooterNav.js"
+import footrcircle from  "./image/group-circle.png";
+import FooterCont from "./coding/FooterCont.js";
 
 
 
@@ -166,9 +169,29 @@ const App = () => (
 
         {/*---Footer-----*/}
         <footer>
-            <section>
-                <div className="footer-social">
-                    <SectionFooterSocial/>
+            <img src={footrcircle} className="footer-bg"/>
+            <section className="footer-social">
+                <div>
+                    <FooterSocial/>
+
+                </div>
+                <div className="footer-social-menu">
+
+                    <FooterNav
+                        name="First"
+                    />
+                    <FooterNav
+                        name="Second"
+                    />
+                    <FooterNav
+                        name="Third"
+                    />
+                    <FooterNav
+                        name="Fourth"
+                    />
+                </div>
+                <div className="footer-cont">
+                    <FooterCont/>
                 </div>
             </section>
 

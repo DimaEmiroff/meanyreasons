@@ -1,8 +1,7 @@
 import React from "react";
 
 
-
-function SectionFooterSocial (props) {
+function FooterSocial () {
     return (
         <div className="footer-social-first">
             <h4>ARShakir</h4>
@@ -20,4 +19,4 @@ function SectionFooterSocial (props) {
         </div>
     );
 }
-export default SectionFooterSocial;
+export default FooterSocial;
