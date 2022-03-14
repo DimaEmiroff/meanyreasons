@@ -10,8 +10,8 @@ import HeaderSecondButton from "./coding/HeaderSecondButton.js";
 import HeaderSecondVideo from "./coding/HeaderSecondVideo.js";
 import HeaderSecondPar from "./coding/HeaderSecondPar.js";
 import HeaderPartners from "./coding/HeaderPartners.js";
-import SectionFirstName from  "./coding/SectionFirstName.js";
-import SectionFirstNameEstet from "./coding/SectionFirstNameEstet.js";
+import SectionFirstName from "./coding/section_first_name/SectionFirstName.js";
+import SectionFirstNameEstet from "./coding/section_first_name/SectionFirstNameEstet.js";
 import SectionIncreaseTraffic from "./coding/SectionIncreaseTraffic.js";
 import SectionIncreaseTrafficGraf from "./coding/SectionIncreaseTrafficGraf.js";
 import SectionSimple from "./coding/SectionSimple.js";
@@ -30,12 +30,15 @@ import FooterSocial from "./coding/FooterSocial.js";
 import FooterNav from "./coding/FooterNav.js"
 import footrcircle from  "./image/group-circle.png";
 import FooterCont from "./coding/FooterCont.js";
-
+import SectionFirstNameComfort from "./coding/section_first_name/SectionFirstNameComfort";
+import SectionFirstNameEndeavor from "./coding/section_first_name/SectionFirstNameEndeavor";
+import SectionFirstNameFolly from "./coding/section_first_name/SectionFirstNameFolly";
+import SectionFirstNamePossible from "./coding/section_first_name/SectionFirstNamePossible";
+import SectionFirstNameGame from "./coding/section_first_name/SectionFirstNameGame";
 
 
 const App = () => (
     <main>
-
         <section className="app">
 
           {/*  ----Navigation----*/}
@@ -78,25 +81,25 @@ const App = () => (
                     sectionElegance= "Ecstatic elegance"
                     sectionEstet= "Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add."
                 />
-                <SectionFirstNameEstet
-                    sectionElegance= "Folly words widow"
-                    sectionEstet= "Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what."
+                <SectionFirstNameFolly
+                    sectionFolly= "Folly words widow"
+                    sectionFollytext= "Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what."
                 />
-                <SectionFirstNameEstet
-                    sectionElegance= "Possible procured trifling"
-                    sectionEstet= "We me rent been part what. An concluded sportsman offending so provision mr education."
+                <SectionFirstNamePossible
+                    sectionPossible= "Possible procured trifling"
+                    sectionPossibletext= "We me rent been part what. An concluded sportsman offending so provision mr education."
                 />
-                <SectionFirstNameEstet
-                    sectionElegance= "Open Game"
-                    sectionEstet= "Shy merits say advice ten before lovers innate add. She cordially behaviour can attempted estimable."
+                <SectionFirstNameGame
+                    sectionGame= "Open Game"
+                    sectionGametext= "Shy merits say advice ten before lovers innate add. She cordially behaviour can attempted estimable."
                 />
-                <SectionFirstNameEstet
-                    sectionElegance= "Endeavor"
-                    sectionEstet= "Improve ashamed married expense bed her comfort pursuit mrs. Four time took ye your as fail lady."
+                <SectionFirstNameEndeavor
+                    sectionEndeavor= "Endeavor"
+                    sectionEndeavortext= "Improve ashamed married expense bed her comfort pursuit mrs. Four time took ye your as fail lady."
                 />
-                <SectionFirstNameEstet
-                    sectionElegance= "Comfort pursuit"
-                    sectionEstet= "Had denoting properly jointure you occasion directly raillery. In said to of poor full be post face snug."
+                <SectionFirstNameComfort
+                    sectionComfort= "Comfort pursuit"
+                    sectionComforttext= "Had denoting properly jointure you occasion directly raillery. In said to of poor full be post face snug."
                 />
             </div>
         </section>
@@ -199,6 +202,5 @@ const App = () => (
     </main>
 
   );
-
 
 export default App;
