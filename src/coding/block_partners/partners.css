@@ -1,0 +1,25 @@
+/*-=========Partners==========-*/
+
+.header_partners_img {
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.header_partners_img_groupLeft {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    opacity: 0.3;
+}
+
+.header_partners_img_groupRight{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    opacity: 0.3;
+}

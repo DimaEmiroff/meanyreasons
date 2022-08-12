@@ -1,0 +1,43 @@
+/*-=========Block Increase=========-*/
+.section-increase-traffic {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.section-increase-traffic-titl {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #8476AA;
+    width: 470px;
+    margin-top: 20px;
+}
+
+.section-increase-traffic-titl > button {
+    margin-top: 40px;
+}
+
+.section-increase-traffic-img {
+    position: relative;
+}
+
+.section-increase-traffic-img-table {
+    position: absolute;
+    left: -140px;
+    top: 20px;
+}
+
+.section-increase-traffic-img-arrow {
+    position: absolute;
+    left: 0;
+    top: 300px;
+}
+
+.section-increase-traffic-img-grouppoint {
+    position: absolute;
+    right: -48px;
+    top: 239px;
+    z-index: -3;
+}

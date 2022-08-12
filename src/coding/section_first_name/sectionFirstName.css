@@ -1,0 +1,150 @@
+/*-=========Block First Name========-*/
+.section-first-name {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-first-name-titl {
+    font-size: 42px;
+    line-height: 50px;
+    margin-bottom: 13px;
+}
+
+.section-first-name-par {
+    font-size: 16px;
+    line-height: 22px;
+    color: #8476AA;
+}
+
+.section-first-name-estet {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.section-first-name-estet-Column {
+    width: 247px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 0 43px 120px;
+    color: #8476AA;
+}
+
+.section-first-name-estet-Elegance {
+    position: relative;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    color: #99EFD0;
+
+}
+
+.section-first-name-estet-Elegance::before {
+    content: "";
+    position: absolute;
+    background-image: url("./estet/image/flip-horizontal.png");
+    width: 24px;
+    height: 24px;
+    left: -48px;
+}
+
+.section-first-name-estet-Folly {
+    position: relative;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    color: #99EFD0;
+}
+
+.section-first-name-estet-Folly::before {
+    content: "";
+    position: absolute;
+    background-image: url("./folly/image/folly.png");
+    width: 24px;
+    height: 24px;
+    left: -48px;
+}
+
+.section-first-name-estet-Possible {
+    position: relative;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    color: #99EFD0;
+}
+
+.section-first-name-estet-Possible::before {
+    content: "";
+    position: absolute;
+    background-image: url("./possible/image/possible.png");
+    width: 24px;
+    height: 24px;
+    left: -48px;
+}
+
+.section-first-name-estet-Game {
+    position: relative;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    color: #99EFD0;
+}
+
+.section-first-name-estet-Game::before {
+    content: "";
+    position: absolute;
+    background-image: url("./game/image/game.png");
+    width: 24px;
+    height: 24px;
+    left: -48px;
+}
+
+.section-first-name-estet-Endeavor {
+    position: relative;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    color: #99EFD0;
+}
+
+.section-first-name-estet-Endeavor::before {
+    content: "";
+    position: absolute;
+    background-image: url("./endeaver/image/endeavor.png");
+    width: 24px;
+    height: 24px;
+    left: -48px;
+}
+
+.section-first-name-estet-Comfort {
+    position: relative;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    color: #99EFD0;
+}
+
+.section-first-name-estet-Comfort::before {
+    content: "";
+    position: absolute;
+    background-image: url("./comfort/image/bulb.png");
+    width: 24px;
+    height: 24px;
+    left: -48px;
+}

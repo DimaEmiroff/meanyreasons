@@ -1,0 +1,22 @@
+.logo {
+    width: 36px;
+    height: 36px;
+}
+
+.navigation > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 613px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.navigation a {
+    color: #B5B5B5;
+}
+.navigation a:hover {
+    color: #bababa;
+    border-bottom: 2px solid #bababa;
+}

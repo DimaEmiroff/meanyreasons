@@ -1,0 +1,61 @@
+/*-=========Block Simple ========-*/
+.section-simple {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    align-items: center;
+    text-align: center;
+}
+
+.section-simple-width {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-simple-titl {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.33px;
+    margin-bottom: 33px;
+
+}
+
+.section-simple-titl-par {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    width: 414px;
+    color: #8476AA;
+
+}
+
+.section-simple-column {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-simple-col {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-simple-col-name {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.33px;
+    margin: 45px 0 10px 0;
+}
+.section-simple-col-par {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    width: 269px;
+    color: #8476AA;
+}

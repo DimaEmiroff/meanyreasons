@@ -1,0 +1,17 @@
+.header-title {
+    margin-top: 140px;
+    text-align: left;
+}
+
+.header_title_many {
+    width: 531px;
+    font-size: 44px;
+    line-height: 50px;
+}
+.header_title_subtitle {
+    width: 468px;
+    line-height: 22px;
+    font-size: 18px;
+    color: #8476AA;
+    margin-top: 10px;
+}

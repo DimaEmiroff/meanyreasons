@@ -1,5 +1,5 @@
 import React from "react";
-import Lte from "../image/LTE.png";
+import Lte from "./section_first_name/possible/image/possible.png";
 import Knife from  "../image/Swiss-knife.png";
 import {Feature} from "../styledirectory/StyleComp.js";
 

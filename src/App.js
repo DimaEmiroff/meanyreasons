@@ -1,154 +1,43 @@
 import React from "react";
-import runman from  "./image/run-man.png";
-import groupman from "./image/groupman.png";
 import './App.css';
 import './Fonts.css';
-import HeaderNavigation from "./coding/HeaderNavigation.js";
-import HeaderButtonSend from "./coding/HeaderButtonSend.js";
-import HeaderTitle from "./coding/HeaderTitle.js";
-import HeaderSecondButton from "./coding/HeaderSecondButton.js";
-import HeaderSecondVideo from "./coding/HeaderSecondVideo.js";
-import HeaderSecondPar from "./coding/HeaderSecondPar.js";
-import HeaderPartners from "./coding/HeaderPartners.js";
-import SectionFirstName from "./coding/section_first_name/SectionFirstName.js";
-import SectionFirstNameEstet from "./coding/section_first_name/SectionFirstNameEstet.js";
-import SectionIncreaseTraffic from "./coding/SectionIncreaseTraffic.js";
-import SectionIncreaseTrafficGraf from "./coding/SectionIncreaseTrafficGraf.js";
-import SectionSimple from "./coding/SectionSimple.js";
-import SectionSimpleStat from "./coding/SectionSimpleStat.js";
-import SectionCreate from "./coding/SectionCreate.js";
-import SectionInvest from "./coding/SectionInvest.js";
-import SectionInvestStat from "./coding/SectionInvestStat.js";
+import './coding/button/button.css'
+import Partners from "./coding/block_partners/Partners.js";
+import Create from "./coding/block_create/Create.js";
 import SectionHelp, {group} from "./coding/SectionHelp.js";
 import SectionHelpTitle from "./coding/SectionHelpTitle.js";
 import SectionHelpProp from "./coding/SectionHelpProp.js";
-import group9 from "./image/group 9.png";
+import group9 from "./coding/block_partners/image/group 9.png";
 import manygroup from "./image/manygroup.png";
 import SectionMany from "./coding/SectionMany.js";
 import SectionManyInput from "./coding/SectionManyInput.js"
-import FooterSocial from "./coding/FooterSocial.js";
-import FooterNav from "./coding/FooterNav.js"
+import FooterSocial from "./coding/block_footer/FooterSocial.js";
+import FooterNav from "./coding/block_footer/FooterNav.js"
 import footrcircle from  "./image/group-circle.png";
-import FooterCont from "./coding/FooterCont.js";
-import SectionFirstNameComfort from "./coding/section_first_name/SectionFirstNameComfort";
-import SectionFirstNameEndeavor from "./coding/section_first_name/SectionFirstNameEndeavor";
-import SectionFirstNameFolly from "./coding/section_first_name/SectionFirstNameFolly";
-import SectionFirstNamePossible from "./coding/section_first_name/SectionFirstNamePossible";
-import SectionFirstNameGame from "./coding/section_first_name/SectionFirstNameGame";
+import FooterCont from "./coding/block_footer/FooterCont.js";
+import Header from "./coding/block_header/Header";
+import SectionFirstName from "./coding/section_first_name/SectionFirstName";
+import Increase from "./coding/block_increase/Increase";
+import Simple from "./coding/block_simple/Simple";
+import Invest from "./coding/block_invest/Invest";
 
 
 const App = () => (
     <main>
-        <section className="app">
-
-          {/*  ----Navigation----*/}
-          <div className="app-header">
-            <HeaderNavigation/>
-            <HeaderButtonSend/>
-          </div>
-        </section>
-
-        {/*--Title Block----*/}
-        <section className = "header-first">
-           <div>
-               <HeaderTitle/>
-               <HeaderSecondButton/>
-           </div>
-
-            <div className="header-first-runman">
-                <img src = {runman} className = "header-first-image-man"/>
-                <img src = {groupman} className = "header-first-image-groupman"/>
-            </div>
-        </section>
-
-        {/*----Header-Block2----*/}
-    <section className= "Header_two_block">
-        <HeaderSecondVideo/>
-        <HeaderSecondPar/>
-    </section>
-
+        {/*  ----HEADER----*/}
+        <Header />
         {/*----Block partners-----*/}
-        <section className= "header_partners">
-            <HeaderPartners/>
-        </section>
-
-        {/*----Block First Name-----*/}
-        <section className="section-first-name">
-        <SectionFirstName/>
-            <div className="section-first-name-estet">
-
-                <SectionFirstNameEstet
-                    sectionElegance= "Ecstatic elegance"
-                    sectionEstet= "Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add."
-                />
-                <SectionFirstNameFolly
-                    sectionFolly= "Folly words widow"
-                    sectionFollytext= "Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what."
-                />
-                <SectionFirstNamePossible
-                    sectionPossible= "Possible procured trifling"
-                    sectionPossibletext= "We me rent been part what. An concluded sportsman offending so provision mr education."
-                />
-                <SectionFirstNameGame
-                    sectionGame= "Open Game"
-                    sectionGametext= "Shy merits say advice ten before lovers innate add. She cordially behaviour can attempted estimable."
-                />
-                <SectionFirstNameEndeavor
-                    sectionEndeavor= "Endeavor"
-                    sectionEndeavortext= "Improve ashamed married expense bed her comfort pursuit mrs. Four time took ye your as fail lady."
-                />
-                <SectionFirstNameComfort
-                    sectionComfort= "Comfort pursuit"
-                    sectionComforttext= "Had denoting properly jointure you occasion directly raillery. In said to of poor full be post face snug."
-                />
-            </div>
-        </section>
-
+        <Partners />
+        {/*----Block first name-----*/}
+        <SectionFirstName />
         {/*-----Block Increase-----*/}
-        <section>
-            <div className="section-increase-traffic">
-                <SectionIncreaseTraffic/>
-                <SectionIncreaseTrafficGraf/>
-            </div>
-        </section>
-
+        <Increase />
         {/*---Block Simple-----*/}
-        <section>
-            <div className="section-simple">
-                <SectionSimple/>
-            </div>
-            <div className= "section-simple-column">
-                <SectionSimpleStat
-                    rait="10+"
-                    text="5 Reasons To Purchase
-                    Desktop Computers"
-                />
-                <SectionSimpleStat
-                    rait="43,000+"
-                    text="3 Simple Ways To Save A Bunch Of Money When Buying A New Computer"
-                />
-                <SectionSimpleStat
-                    rait="30+"
-                    text="A Discount Toner Cartridge Is Better Than Ever And You Will Save 50 Or More"
-                />
-
-            </div>
-        </section>
-
-    {/* ---Block create--*/}
-        <section>
-            <div>
-                <SectionCreate/>
-            </div>
-        </section>
-
-    {/* ----Block Invest-----*/}
-        <section>
-            <div className="section-invest-traffic">
-                <SectionInvest/>
-                <SectionInvestStat/>
-            </div>
-        </section>
+        <Simple />
+         {/* ---Block create--*/}
+        <Create/>
+        {/* ----Block Invest-----*/}
+        <Invest />
 
     {/* -----Block Help-----*/}
         <section className="section-help">
@@ -197,7 +86,6 @@ const App = () => (
                     <FooterCont/>
                 </div>
             </section>
-
         </footer>
     </main>
 

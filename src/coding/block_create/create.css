@@ -1,0 +1,23 @@
+/*-===========Block Create=========-*/
+
+.create-newproject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    text-align: center;
+    position: relative;
+}
+
+.create-newproject > button {
+    margin-top: 33px;
+}
+
+.create-newproject-frame {
+    position: absolute;
+    top: 196px;
+    object-fit: fill;
+    height: 126%;
+    width: 95%;
+}

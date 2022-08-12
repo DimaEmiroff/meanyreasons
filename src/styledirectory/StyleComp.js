@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React from "react";
-import SectionSimpleStat from "../coding/SectionSimpleStat";
+
 
 export const Title = styled.h3`
   font-size: 26px;
@@ -19,9 +19,11 @@ export const Upper = {
 }
 
 export const LineHr = {
-    width: "230px",
-    margin: "10px 20px"
+    width: "148px",
+    margin: "10px 20px",
+    borderTop: "1px solid #000000"
 }
+
 export const Prices = styled.div `
   color: #13C296;
   font-size: 24px;
@@ -46,7 +48,6 @@ export const FooAdr = styled.h4`
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.2px;
-
   color: #8D8D8D;
     a:hover {
     border-bottom: 1px solid #8D8D8D;

@@ -1,0 +1,34 @@
+.video {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 90px;
+}
+
+.video_youtube {
+    width: 140px;
+    height: 80px;
+    background: #361C5D;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.HeaderSecond-par {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8476AA;
+    width: 380px;
+    padding-left: 40px;
+}
+
+.HeaderSecond-par a {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6D6D78;
+}

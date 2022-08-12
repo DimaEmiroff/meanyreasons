@@ -1,0 +1,69 @@
+/*-==========Block Invest=========-*/
+.section-invest-traffic {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 270px;
+}
+
+.section-invest-stat {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 415px;
+    width: 260px;
+    background: #ffffff;
+    border-radius:0 0 10px 10px;
+
+}
+
+.section-invest-stat > span {
+    padding: 13px 40px 3px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #212B36;
+
+}
+
+.section-invest-stat > p {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    color: #637381;
+    padding: 0 40px 10px 30px;
+}
+
+.section-invest-stat-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-invest-stat-par {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #637381;
+}
+
+.section-invest-stat-arrow {
+    position: absolute;
+    top: 93px;
+    left: -98px;
+}
+
+.section-invest-stat-mnth {
+    position: absolute;
+    bottom: 119px;
+    right: -121px;
+    z-index: -1;
+}
+
+.section-invest-stat-mask {
+    position: absolute;
+    left: -188px;
+    z-index: -2;
+}
