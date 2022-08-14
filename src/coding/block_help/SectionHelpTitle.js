@@ -1,5 +1,5 @@
 import React from "react";
-import {Title} from "../styledirectory/StyleComp.js";
+import {Title} from "../../styledirectory/StyleComp.js";
 
 const SectionHelpTitle = () => (
     <div className= "section-help-title">

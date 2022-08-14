@@ -1,7 +1,6 @@
 import React from "react";
 
-
-function FooterNav (props) {
+function FooterNav(props) {
     return (
         <>
             <ul className="footer-nav-first">
@@ -9,19 +8,26 @@ function FooterNav (props) {
                     <p>{props.name}</p>
                 </li>
                 <li>
-                    <a href="#">First page</a>
+                    <a href="#" className={'footer-nav-first-link'}>
+                        First page
+                    </a>
                 </li>
                 <li>
-                    <a href="#">Second page</a>
+                    <a href="#" className={'footer-nav-first-link2'}>
+                        Second page
+                    </a>
                 </li>
                 <li>
-                    <a href="#">Third page</a>
+                    <a href="#" className={'footer-nav-first-link'}>
+                        Third page
+                    </a>
                 </li>
                 <li>
-                    <a href="#">Fourth page</a>
+                    <a href="#" className={'footer-nav-first-link2'}>
+                        Fourth page
+                    </a>
                 </li>
             </ul>
-
         </>
     );
 }

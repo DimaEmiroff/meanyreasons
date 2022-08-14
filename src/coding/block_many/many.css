@@ -1,0 +1,100 @@
+/*-==========Block Many Reasons======*/
+.many {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section-many-bg {
+    margin: 100px 0 0 120px;
+    width: 940px;
+    height: 324px;
+    background: rgba(60, 62, 125, 0.19);
+    backdrop-filter: blur(134px);
+    border-radius: 5px;
+
+}
+
+.section-many-img {
+    position: absolute;
+    top: 36px;
+}
+
+.section-many-text {
+    padding-top: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.section-many-text-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #F2994A;
+}
+
+.section-many-par {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 400px;
+    padding-left: 260px;
+    color: #95A1BB;
+    margin-top: 18px;
+}
+
+.section-many-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+
+}
+
+.section-many-form-text {
+    width: 308px;
+    height: 56px;
+    background: #F6F6F6;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    opacity: 0.1;
+}
+
+.section-many-form-text:focus {
+    opacity: 0.4;
+    color: #000000;
+}
+
+.section-many-form-btn {
+    width: 128px;
+    height: 56px;
+    background: #F2994A;
+    border-radius: 0 5px 5px 0;
+    border: none;
+}
+
+.section-many-form-btn:hover {
+    background: none;
+    border: 1px solid #F2994A;
+    color: #F2994A;
+}
+
+.section-many-form-par {
+    margin-top: 13px;
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #8476AA;
+}

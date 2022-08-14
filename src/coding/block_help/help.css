@@ -1,0 +1,60 @@
+/*-========Block Help========-*/
+.help {
+    display: flex;
+    justify-content: space-between;
+    margin: 180px 0 0 120px;
+    flex-wrap: wrap;
+}
+
+.section-help-clmn {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.section-help-img {
+    position: relative;
+}
+
+.section-help-img-mask-oval {
+    position: absolute;
+    left: -80px;
+    bottom: 60px;
+    z-index: -1;
+}
+
+.section-help-img-mask-point2 {
+    position: absolute;
+    bottom: 148px;
+}
+
+.section-help-img-mask-point8 {
+    position: absolute;
+    left: -53px;
+    top: -25px;
+    z-index: -1;
+}
+
+.section-help-title-prop {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 33px;
+    width: 505px
+}
+
+.section-help-title-par {
+    width: 224px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+    color: #8476AA;
+}
+
+.section-help-clmn-img {
+    position: absolute;
+    transform: rotate(60deg);
+    right: 184px;
+    opacity: 0.2;
+}

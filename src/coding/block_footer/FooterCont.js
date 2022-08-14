@@ -1,8 +1,7 @@
 import React from "react";
-import {FooAdr} from "../../styledirectory/StyleComp";
+import { FooAdr } from "../../styledirectory/StyleComp";
 
-
-function FooterCont () {
+function FooterCont() {
     return (
         <div className="footer-cont-private">
             <FooAdr>&copy;Copyright 2022</FooAdr>

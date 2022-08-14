@@ -1,0 +1,130 @@
+/*-=======Footer========-*/
+.footer-social {
+    position: relative;
+    margin: 150px 0 0 120px;
+}
+
+.footer-social-first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-social-first > h4 {
+    text-align: left;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.325px;
+    color: #F2994A;
+}
+
+.footer-bg {
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+
+.footer-social-first-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.footer-social-first-list {
+    background-color: #443570;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+.footer-social-first-googlebg,
+.footer-social-first-twit,
+.footer-social-first-face {
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+}
+
+.footer-social-first-googlebg {
+    background-image: url("./image/google.png");
+}
+
+.footer-social-first-twit {
+    background-image: url("./image/twitter.png");
+}
+
+.footer-social-first-face {
+    background-image: url("./image/facebook.png");
+}
+
+.footer-social-first-list:hover {
+    background-color: #8476AA;
+}
+
+.footer-social-menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 78px;
+}
+
+.footer-nav-first {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.footer-nav-first li:first-child {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 22px;
+}
+
+.footer-nav-first li {
+    margin-bottom: 18px;
+}
+
+.footer-nav-first a {
+    color: #ffffff;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer-nav-first-link2:hover {
+    box-shadow: 0 -1px 0 0 inset #FFFFFF;
+}
+
+.footer-nav-first-link:hover {
+    box-shadow: 0 -1px 0 0 inset #FFFFFF;
+    width: 80%;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 133px;
+}
+
+.footer-cont-private {
+    display: flex;
+    justify-content: space-evenly;
+    width: 623px;
+}
+
+.footer-cont-private a {
+    color: #8D8D8D;
+}
+
