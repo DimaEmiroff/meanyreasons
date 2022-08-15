@@ -3,9 +3,9 @@ import './header.css'
 import Navigation from "./navigation/Navigation";
 import HeaderButtonSend from "../button/HeaderButtonSend";
 import Title from "./title/Title";
-import HeaderButton from "../button/HeaderButton";
 import ImageMan from "./imageMan/ImageMan";
 import Video from "./video/Video";
+import Button from "../button/Button";
 
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
             <div className = "header-container">
                 <div>
                 <Title />
-                <HeaderButton />
+                <Button />
                 <Video/>
                 </div>
                 <ImageMan />

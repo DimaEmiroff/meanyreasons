@@ -20,7 +20,6 @@ import Help from "./coding/block_help/Help";
 import Many from "./coding/block_many/Many";
 import Footer from "./coding/block_footer/Footer";
 
-
 const App = () => (
     <main>
         {/*  ----HEADER----*/}

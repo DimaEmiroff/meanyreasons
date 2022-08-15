@@ -24,26 +24,6 @@ import { React, Component } from "react";
 // export default Btn
 
 
-export  default [
-        {
-            name: 'Comfort pursuit',
-            scientificName: 'Had denoting properly jointure you occasion directly raillery. In said to of poor full be post face snug.'
-        },
-        {
-            name: 'Gorilla',
-            scientificName: 'Gorilla beringei'
-        },
-        {
-            name: 'Zebra',
-            scientificName: 'Equus quagga',
-            size: 322,
-            diet: ['plants'],
-            additional: {
-                notes: 'There are three different species of zebra.',
-                link: 'https://en.wikipedia.org/wiki/Zebra'
-            }
-        }
-    ]
 
 
 
