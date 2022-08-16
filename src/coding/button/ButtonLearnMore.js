@@ -2,8 +2,7 @@ import React, {useState} from "react";
 import ModalFormLearnMore from "../modal_form/ModalFormLearnMore";
 
 const ButtonLearnMore = () => {
-    const [modal, setModal] = useState(true);
-    console.log(setModal)
+    const [modal, setModal] = useState(false);
     return (
         <>
             <button type="button" onClick={() => setModal(true)} className="Button-learn">Learn More</button>

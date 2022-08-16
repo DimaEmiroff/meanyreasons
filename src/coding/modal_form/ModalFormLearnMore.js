@@ -4,7 +4,7 @@ import './modal.css'
 const ModalFormLearnMore = ({ active, setActive }) => {
     return (
         <div className={active ? 'modal active' : 'modal'} onClick={() => setActive(false)}>
-            <form className={'modal-form'} onClick={e => e.stopPropagation()}>
+            <form className={active ? 'modal-form active' : 'modal-form'} onClick={e => e.stopPropagation()}>
                 <div>
                     <label htmlFor="name">Name</label>
                     <input id="name" type="text" placeholder={'print your name'}/>
